@@ -1,0 +1,36 @@
+.TableListWrapper {
+    margin: 20px 10px;
+    padding: 10px;
+    border: #ccc solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 1px #ccc;
+}
+
+.AddButton {
+    height: 2vh;
+    width: 2vw;
+    transition: transform .1s ease-out;
+}
+
+.AddButton:hover {
+    transform: rotate(0.25turn) scale(1.25);
+}
+
+.AddButton:active {
+   transform: rotate(0.25turn) scale(0.75);
+}
+
+.TableHeader {
+    display: grid;
+    grid-template-columns: 2fr repeat(6, 1fr);
+
+}
+
+.HeaderElement {
+    align-self: center;
+    justify-self: center;
+}
+
+.HeaderElement:last-of-type {
+    border: none;
+}

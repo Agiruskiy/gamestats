@@ -1,0 +1,10 @@
+.TableElement {
+    display: flex;
+    border: 1px solid #EBECF0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.TableElement:hover {
+    background-color: #EBECF0;
+}

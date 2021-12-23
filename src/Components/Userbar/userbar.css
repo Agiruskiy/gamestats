@@ -1,0 +1,25 @@
+.Userbar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+
+}
+
+.Avatar {
+    height: 20vh;
+}
+h2 {
+    align-self: center;
+    padding-top: 0;
+    margin-block-start: 0;
+    margin-block-end: 2vh;
+    font-size: 1.5vw;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 100%;
+}

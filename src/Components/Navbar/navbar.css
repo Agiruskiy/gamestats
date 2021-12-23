@@ -1,0 +1,27 @@
+.Navbar {
+    display: flex;
+    background-color: cadetblue;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    height: 5vh;
+    align-items: center;
+}
+
+.Logo {
+    height: 100%;
+}
+
+.Link {
+    margin-left: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: transform 0.1s ease-in-out;
+    padding: 5px;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
