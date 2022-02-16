@@ -1,11 +1,9 @@
 import './tableelement.css'
 
-export function TableElement () {
+export function TableElement ({game}) {
   return(
     <div className="TableElement">
-      <form action="#" method="post">
-
-      </form>
+      <p>{game.name}  {game.price}  {game.platform}  {game.timespent}  {game.score}</p>
     </div>
   )
 }

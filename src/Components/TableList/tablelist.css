@@ -12,13 +12,6 @@
     transition: transform .1s ease-out;
 }
 
-.AddButton:hover {
-    transform: rotate(0.25turn) scale(1.25);
-}
-
-.AddButton:active {
-   transform: rotate(0.25turn) scale(0.75);
-}
 
 .TableHeader {
     display: grid;
@@ -33,4 +26,13 @@
 
 .HeaderElement:last-of-type {
     border: none;
+}
+
+.InputFormWrapper {
+    display: none;
+}
+
+.SubmitButton {
+    height: 3vh;
+    width: 3vw;
 }
